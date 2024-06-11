@@ -1,9 +1,8 @@
 package org.example.config;
 
-import org.example.main.Parrot;
-import org.example.main.Person;
+import org.example.beans.Parrot;
+import org.example.beans.Person;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
@@ -20,6 +19,7 @@ public class ProjectConfig {
     public Person person() {
         Person p = new Person();
         p.setName("Ella");
+        p.setParrot(parrot());
         return p;
     }
 }

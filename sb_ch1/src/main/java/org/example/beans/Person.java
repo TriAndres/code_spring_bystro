@@ -1,4 +1,4 @@
-package org.example.main;
+package org.example.beans;
 
 public class Person {
     private String name;
