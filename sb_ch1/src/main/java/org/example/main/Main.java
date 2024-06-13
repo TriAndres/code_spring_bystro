@@ -1,6 +1,5 @@
 package org.example.main;
 
-import org.example.beans.Parrot;
 import org.example.beans.Person;
 import org.example.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

@@ -1,12 +1,15 @@
 package org.example.beans;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Person {
     private String name = "Elena";
-    private  Parrot parrot;
+    private  final Parrot parrot;
+
+    public Person(Parrot parrot2) {
+        this.parrot = parrot2;
+    }
 
     public String getName() {
         return name;
@@ -18,9 +21,5 @@ public class Person {
 
     public Parrot getParrot() {
         return parrot;
-    }
-    @Autowired
-    public void setParrot(Parrot parrot) {
-        this.parrot = parrot;
     }
 }
