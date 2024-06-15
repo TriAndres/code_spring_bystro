@@ -1,4 +1,4 @@
-package ru.practiicum;
+package ru.practicum;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
