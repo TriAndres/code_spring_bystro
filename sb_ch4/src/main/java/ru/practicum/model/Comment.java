@@ -1,4 +1,4 @@
-package ru.practiicum.model;
+package ru.practicum.model;
 
 public class Comment {
     private String author;

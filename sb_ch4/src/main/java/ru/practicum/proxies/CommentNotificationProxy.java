@@ -1,6 +1,6 @@
-package ru.practiicum.proxies;
+package ru.practicum.proxies;
 
-import ru.practiicum.model.Comment;
+import ru.practicum.model.Comment;
 
 public interface CommentNotificationProxy {
     void sendComment(Comment comment);

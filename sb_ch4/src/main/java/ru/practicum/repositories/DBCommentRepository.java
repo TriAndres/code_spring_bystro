@@ -1,8 +1,8 @@
-package ru.practiicum.repositories;
+package ru.practicum.repositories;
 
 import org.springframework.stereotype.Component;
-import ru.practiicum.model.Comment;
-
+import ru.practicum.model.Comment;
+@Component
 public class DBCommentRepository implements CommentRepository {
     @Override
     public void storeComment(Comment comment) {

@@ -1,6 +1,6 @@
-package ru.practiicum.repositories;
+package ru.practicum.repositories;
 
-import ru.practiicum.model.Comment;
+import ru.practicum.model.Comment;
 
 public interface CommentRepository {
     void storeComment(Comment comment);

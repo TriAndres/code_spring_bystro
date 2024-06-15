@@ -1,9 +1,9 @@
-package ru.practiicum.services;
+package ru.practicum.services;
 
 import org.springframework.stereotype.Component;
-import ru.practiicum.model.Comment;
-import ru.practiicum.proxies.CommentNotificationProxy;
-import ru.practiicum.repositories.CommentRepository;
+import ru.practicum.model.Comment;
+import ru.practicum.proxies.CommentNotificationProxy;
+import ru.practicum.repositories.CommentRepository;
 @Component
 public class CommentService {
     private final CommentRepository commentRepository;
