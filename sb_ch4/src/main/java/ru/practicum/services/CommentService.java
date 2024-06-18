@@ -1,11 +1,10 @@
 package ru.practicum.services;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import ru.practicum.model.Comment;
 import ru.practicum.proxies.CommentNotificationProxy;
 import ru.practicum.repositories.CommentRepository;
-@Component
+@Service
 public class CommentService {
 
     private CommentRepository commentRepository;
