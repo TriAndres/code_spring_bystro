@@ -1,11 +1,12 @@
 package ru.practicum.proxies;
 
-import org.springframework.context.annotation.Primary;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import ru.practicum.model.Comment;
 @Component
-@Primary
-public class EmailCommentNotificationProxy implements  CommentNotificationProxy{
+@Qualifier("EMAIL")
+public class EmailCommentNotificationProxy
+        implements  CommentNotificationProxy{
     @Override
     public void sendComment(Comment comment) {
         System.out.println(

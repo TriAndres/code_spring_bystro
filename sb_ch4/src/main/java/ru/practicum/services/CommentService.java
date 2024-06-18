@@ -7,9 +7,9 @@ import ru.practicum.proxies.CommentNotificationProxy;
 import ru.practicum.repositories.CommentRepository;
 @Component
 public class CommentService {
-    @Autowired
+
     private CommentRepository commentRepository;
-    @Autowired
+
     private CommentNotificationProxy commentNotificationProxy;
 
     public CommentService(CommentRepository commentRepository, CommentNotificationProxy commentNotificationProxy) {
