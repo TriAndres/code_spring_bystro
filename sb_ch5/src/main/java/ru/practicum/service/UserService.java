@@ -5,7 +5,8 @@ import org.springframework.stereotype.Service;
 import ru.practicum.repositories.CommentRepository;
 
 @Service
-public class CommentService {
+public class UserService {
+
     @Autowired
     private CommentRepository commentRepository;
 
